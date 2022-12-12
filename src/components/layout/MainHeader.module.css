@@ -1,0 +1,57 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: peru
+
+}
+
+
+.logo {
+  font-size: 2rem;
+  color: white;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(68, 67, 64)
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+  color: rgb(242, 237, 232)
+}
+
+.header button {
+  font: inherit;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  padding: 0.3rem 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: rgb(213, 185, 157);
+  color: rgb(68, 67, 64)
+}
+
+
